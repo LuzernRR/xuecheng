@@ -16,3 +16,9 @@ spring:
 logging:
   config: classpath:log4j2-dev.xml
 
+swagger:
+  title: "学成在线"
+  description: "内容系统管理"
+  base-package: com.lxz.content
+  enabled: true
+  version: 1.0.0
