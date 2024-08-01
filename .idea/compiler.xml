@@ -3,44 +3,20 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-      </profile>
       <profile name="Annotation profile for xuecheng-plus-generator" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="D:/maven-3.9.6/mvn_repo/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
+        <module name="xuecheng-plus-content-service" />
+        <module name="xuecheng-plus-content-api" />
         <module name="xuecheng-plus-content-model" />
         <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-base" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-content-service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="D:/maven-3.9.6/mvn_repo/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
-        </processorPath>
-        <module name="xuecheng-plus-content-service" />
-      </profile>
-      <profile name="Annotation profile for xuecheng-plus-content" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="D:/maven-3.9.6/mvn_repo/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
-          <entry name="D:/maven-3.9.6/mvn_repo/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
-        </processorPath>
-        <module name="xuecheng-plus-content-api" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="xuecheng-plus-project" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

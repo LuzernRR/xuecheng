@@ -30,7 +30,7 @@ public class CourseBaseMapperTests {
         QueryCourseParamsDto courseParamsDto = new QueryCourseParamsDto();
         courseParamsDto.setCourseName("java"); // 课程名称查询条件
         // 拼装查询条件
-        LambdaQueryWrapper<Object> queryWrapper = new LambdaQueryWrapper<>();
+        LambdaQueryWrapper<CourseBase> queryWrapper = new LambdaQueryWrapper<>();
         // 根据名称模糊查询， 在sql中拼接courseName like '%java%'
         queryWrapper.like(StringUtils.isNotBlank(courseParamsDto.getCourseName()), CourseBase::getName, courseParamsDto.getCourseName());
         // 根据课程审核状态查询， 在sql中拼接audit_status = ？
