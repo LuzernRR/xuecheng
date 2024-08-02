@@ -25,11 +25,10 @@ public class CourseBaseInfoController {
     CourseBaseInfoService courseBaseInfoService;
     // swagger注解，生成swagger文档
     @ApiOperation("课程查询接口")
-    @PostMapping("/content/list")
+    @PostMapping("/course/list")
     // pageParams是分页参数，queryCourseParamsDto是查询条件
     // json数据转为对象需要添加@RequestBody
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody(required = false) QueryCourseParamsDto queryCourseParams) {
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParams);
-        return courseBasePageResult;
+        return courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParams);
     }
 }

@@ -34,7 +34,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getPublishStatus()), CourseBase::getStatus, courseParamsDto.getPublishStatus());
 
         // 创建page分页参数对象，当前页1，每页显示10条
-         Page<CourseBase> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
+        Page<CourseBase> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
         // 执行分页查询
         Page<CourseBase> pageResult = courseBaseMapper.selectPage(page, queryWrapper);
         // 数据列表

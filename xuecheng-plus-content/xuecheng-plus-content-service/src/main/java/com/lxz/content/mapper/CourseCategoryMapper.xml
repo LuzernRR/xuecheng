@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lxz.content.mapper.CourseCategoryMapper">
-
+<!-- 通用查询
+这个MyBatis映射文件主要有两个部分：
+1. resultMap定义了数据库表（如CourseCategory表）和Java对象（如CourseCategory类）之间的映射关系。
+2. sql定义了一个通用的列清单，可以在其他查询中引用，减少代码重复。
+这些配置使得MyBatis在进行数据库查询时能够自动将查询结果映射到Java对象中，方便后续的业务逻辑处理。-->
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.lxz.content.model.po.CourseCategory">
         <id column="id" property="id" />
@@ -17,5 +21,18 @@
     <sql id="Base_Column_List">
         id, name, label, parentid, is_show, orderby, is_leaf
     </sql>
-
+    <!-- resultType：将查询字段映射到对象中 -->
+    <!-- resultMap：查询到的字段名和数据名不一致，需要重新映射 -->
+    <!-- 递归查询课程分类 -->
+    <select id="selectTreeNodes" parameterType="string" resultType="com.lxz.content.model.dto.CourseCategoryTreeDto" resultMap="BaseResultMap">
+        with recursive t1 as (select *
+                              from course_category
+                              where id = #{id}
+                              union all
+                              select t2.*
+                              from course_category t2
+                                  inner join t1 on t1.id = t2.parentid)
+        select * from t1
+        order by t1.id
+    </select>
 </mapper>
