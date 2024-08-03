@@ -4,6 +4,8 @@ import com.lxz.content.model.dto.CourseCategoryTreeDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * @description:
  * @author: 12860
@@ -12,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CourseCategoryController {
     @GetMapping("course-category/tree-nodes")
-    public CourseCategoryTreeDto queryTreeNodes(){
+    public List<CourseCategoryTreeDto> queryTreeNodes(){
         return null;
     }
 }
