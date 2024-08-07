@@ -1,7 +1,11 @@
 package com.lxz.content.mapper;
 
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lxz.content.model.dto.TeachplanDto;
 import com.lxz.content.model.po.Teachplan;
+
+import java.util.List;
 
 /**
  * <p>
@@ -11,5 +15,7 @@ import com.lxz.content.model.po.Teachplan;
  * @author itcast
  */
 public interface TeachplanMapper extends BaseMapper<Teachplan> {
+    // 课程计划查询
+    public List<TeachplanDto> selectTreeNodes(Long courseId);
 
 }
