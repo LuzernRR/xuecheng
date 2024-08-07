@@ -1,16 +1,30 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
-#微服务配置
+#server:
+#  servlet:
+#    context-path: /content
+#  port: 63040
+##微服务配置
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/xczx?serverTimezone=UTC&userUnicode=true&useSSL=false&
+#    username: root
+#    password: root
 spring:
   application:
-    name: content-api
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/xczx?serverTimezone=UTC&userUnicode=true&useSSL=false&
-    username: root
-    password: root
+    name: content-api  # 服务名称
+  cloud:
+    nacos:
+      server-addr: 192.168.128.1:8848
+      discovery:   # 服务发现
+        namespace: dev
+        group: xczx
+      config:  # 配置文件相关信息
+        namespace: 54a51513-52f2-4d52-b774-caba911f8f39
+        group: xczx
+        file-extension: yaml
+        refresh-enabled: true
+  profiles:
+    active: dev  # 指定当前环境，对应配置文件content-api-dev.yaml的后缀
 
 # 日志文件配置路径
 logging:

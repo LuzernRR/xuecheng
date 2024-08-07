@@ -29,7 +29,7 @@ public class TeachplanServiceImpl implements TeachplanService {
         if (teachplanDtos == null) {
             return Collections.emptyList();
         } else {
-            return teachplanDtos;
+            return teachplanDtos; // 返回课程计划树形结构
     }
     }
 
