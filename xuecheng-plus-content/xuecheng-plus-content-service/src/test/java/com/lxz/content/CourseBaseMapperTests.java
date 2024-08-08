@@ -25,7 +25,7 @@ public class CourseBaseMapperTests {
     public void testCourseBaseMapper(){
         CourseBase courseBase = courseBaseMapper.selectById(18);
         Assertions.assertNotNull(courseBase);
-        // 详细进行分页查询的单元测试
+        // 详细进行分页查询的单元测试、
         // 查询条件
         QueryCourseParamsDto courseParamsDto = new QueryCourseParamsDto();
         courseParamsDto.setCourseName("java"); // 课程名称查询条件

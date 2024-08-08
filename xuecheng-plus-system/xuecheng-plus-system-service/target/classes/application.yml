@@ -2,7 +2,7 @@
 #微服务配置
 spring:
   application:
-    name: content-api
+    name: system-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/xczx_system?serverTimezone=UTC&userUnicode=true&useSSL=false&

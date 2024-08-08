@@ -1,8 +1,9 @@
-POST http://localhost:63040/content/content/list?pageNo=1&pageSize=10
+POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=2
 Content-Type: application/json
 
+# 注意是UTF-8编码！！！
 {
   "auditStatus": "202004",
   "courseName": "java",
-  "publishStatus": "203001"
+  "publishStatus": ""
 }

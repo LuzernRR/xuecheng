@@ -138,40 +138,40 @@
 2024-08-01 17:05:52,834 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2024-08-01 17:05:52,834 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
 2024-08-01 17:05:52,834 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2024-08-01 17:05:54,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:05:54,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:05:54,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:05:54,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:05:54,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:05:54,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:05:54,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:05:54,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:05:54,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:05:54,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:05:54,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:05:54,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:05:54,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:05:54,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:05:54,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:05:54,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:05:54,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:05:54,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:05:54,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:05:54,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:05:54,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:05:54,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:05:54,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:05:54,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:05:54,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:05:54,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:05:54,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:05:54,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:05:54,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-08-01 17:05:54,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:05:54,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:05:54,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:05:54,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:05:54,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:05:54,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:05:54,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:05:54,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:05:54,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:05:54,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:05:54,325 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:05:54,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:05:54,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:05:54,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:05:54,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:05:54,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:05:54,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:05:54,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:05:54,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:05:54,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:05:54,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:05:54,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:05:54,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:05:54,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:05:54,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:05:54,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:05:54,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:05:54,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:05:54,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:05:54,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:05:54,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:05:54,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
 2024-08-01 17:05:54,553 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:05:54,553 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:05:54,574 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
@@ -355,12 +355,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -456,12 +456,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -557,12 +557,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -658,12 +658,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -717,7 +717,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:07:09,990 ERROR [http-nio-63110-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -764,12 +764,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -823,7 +823,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:07:09,990 ERROR [http-nio-63110-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -870,12 +870,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1049,12 +1049,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1150,12 +1150,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1251,12 +1251,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1352,12 +1352,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1411,7 +1411,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:07:45,114 ERROR [http-nio-63110-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -1458,12 +1458,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1517,7 +1517,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:07:45,114 ERROR [http-nio-63110-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -1564,12 +1564,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1747,12 +1747,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1848,12 +1848,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1949,12 +1949,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2050,12 +2050,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2109,7 +2109,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:08:31,701 ERROR [http-nio-63110-exec-4][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -2156,12 +2156,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2215,7 +2215,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:08:31,701 ERROR [http-nio-63110-exec-4][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -2262,12 +2262,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2441,12 +2441,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2542,12 +2542,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2643,12 +2643,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2744,12 +2744,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2803,7 +2803,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:09:06,970 ERROR [http-nio-63110-exec-6][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -2850,12 +2850,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2909,7 +2909,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:09:06,970 ERROR [http-nio-63110-exec-6][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -2956,12 +2956,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3151,12 +3151,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3252,12 +3252,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3353,12 +3353,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3454,12 +3454,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3513,7 +3513,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:11:46,951 ERROR [http-nio-63110-exec-7][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -3560,12 +3560,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3619,7 +3619,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:11:46,951 ERROR [http-nio-63110-exec-7][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -3666,12 +3666,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3845,12 +3845,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3946,12 +3946,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4047,12 +4047,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4148,12 +4148,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4207,7 +4207,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:11:55,690 ERROR [http-nio-63110-exec-3][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -4254,12 +4254,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4313,7 +4313,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:11:55,690 ERROR [http-nio-63110-exec-3][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.lxz.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'] with root cause
 java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
@@ -4360,12 +4360,12 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.lxz.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.lxz.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$f0c06389.queryAll(<generated>)
+	at com.lxz.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4500,40 +4500,40 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:15:32,748 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7fb29ca9'
 2024-08-01 17:15:32,750 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
 2024-08-01 17:15:32,750 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2024-08-01 17:15:34,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:15:34,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:15:34,449 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:15:34,449 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:15:34,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:15:34,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:15:34,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:15:34,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:15:34,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:15:34,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:15:34,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:15:34,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:15:34,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:15:34,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:15:34,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:15:34,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:15:34,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:15:34,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:15:34,471 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:15:34,471 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:15:34,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:15:34,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:15:34,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:15:34,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:15:34,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:15:34,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:15:34,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:15:34,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:15:34,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-08-01 17:15:34,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:15:34,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:15:34,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:15:34,449 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:15:34,449 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:15:34,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:15:34,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:15:34,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:15:34,462 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:15:34,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:15:34,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:15:34,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:15:34,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:15:34,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:15:34,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:15:34,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:15:34,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:15:34,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:15:34,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:15:34,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:15:34,471 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:15:34,471 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:15:34,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:15:34,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:15:34,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:15:34,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:15:34,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:15:34,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:15:34,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:15:34,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:15:34,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:15:34,478 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
 2024-08-01 17:15:34,697 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:15:34,697 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:15:34,721 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
@@ -5138,40 +5138,40 @@ java.sql.SQLSyntaxErrorException: Unknown database 'xczx-system'
 2024-08-01 17:35:50,608 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7fb29ca9'
 2024-08-01 17:35:50,609 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
 2024-08-01 17:35:50,609 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2024-08-01 17:35:52,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:35:52,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:35:52,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:35:52,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:35:52,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:35:52,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:35:52,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:35:52,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:35:52,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:35:52,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:35:52,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:35:52,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:35:52,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:35:52,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:35:52,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:35:52,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:35:52,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:35:52,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:35:52,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:35:52,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:35:52,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:35:52,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:35:52,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:35:52,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:35:52,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:35:52,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:35:52,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:35:52,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:35:52,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:35:52,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:35:52,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:35:52,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:35:52,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-08-01 17:35:52,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:35:52,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:35:52,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:35:52,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:35:52,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:35:52,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:35:52,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:35:52,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:35:52,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:35:52,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:35:52,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:35:52,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:35:52,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:35:52,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:35:52,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:35:52,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:35:52,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:35:52,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:35:52,303 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:35:52,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:35:52,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:35:52,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:35:52,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:35:52,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:35:52,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:35:52,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:35:52,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:35:52,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:35:52,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:35:52,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:35:52,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:35:52,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:35:52,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:35:52,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:35:52,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
 2024-08-01 17:35:52,554 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:35:52,554 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:35:52,577 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
@@ -9312,40 +9312,40 @@ Unconditional classes:
 2024-08-01 17:38:14,233 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7fb29ca9'
 2024-08-01 17:38:14,234 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
 2024-08-01 17:38:14,234 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2024-08-01 17:38:15,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:38:15,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:38:15,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:38:15,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:38:15,971 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:38:15,971 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:38:15,983 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:38:15,983 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:38:15,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:38:15,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:38:15,990 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:38:15,990 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:38:15,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:38:15,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:38:15,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:38:15,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:38:15,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:38:15,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:38:15,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:38:15,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:38:16,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:38:16,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:38:16,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:38:16,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:38:16,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:38:16,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:38:16,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:38:16,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:38:16,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:38:16,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:38:16,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:38:16,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:38:16,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-08-01 17:38:16,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:38:15,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:38:15,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:38:15,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:38:15,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:38:15,971 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:38:15,971 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:38:15,983 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:38:15,983 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:38:15,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:38:15,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:38:15,990 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:38:15,990 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:38:15,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:38:15,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:38:15,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:38:15,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:38:15,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:38:15,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:38:15,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:38:15,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:38:16,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:38:16,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:38:16,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:38:16,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:38:16,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:38:16,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:38:16,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:38:16,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:38:16,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:38:16,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:38:16,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:38:16,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:38:16,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:38:16,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
 2024-08-01 17:38:16,229 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:38:16,229 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:38:16,249 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
@@ -9606,40 +9606,40 @@ Unconditional classes:
 2024-08-01 17:40:40,982 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7b948f3e'
 2024-08-01 17:40:40,983 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
 2024-08-01 17:40:40,983 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2024-08-01 17:40:42,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:40:42,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:40:42,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:40:42,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:40:42,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:40:42,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:40:42,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:40:42,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:40:42,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:40:42,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:40:42,787 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:40:42,787 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:40:42,789 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:40:42,789 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:40:42,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:40:42,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:40:42,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:40:42,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:40:42,793 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:40:42,793 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:40:42,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:40:42,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:40:42,796 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:40:42,796 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:40:42,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:40:42,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:40:42,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-08-01 17:40:42,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:40:42,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:40:42,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:40:42,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:40:42,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:40:42,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:40:42,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:40:42,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:40:42,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:40:42,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:40:42,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:40:42,787 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:40:42,787 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:40:42,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:40:42,789 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:40:42,789 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:40:42,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:40:42,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:40:42,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:40:42,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:40:42,793 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:40:42,793 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:40:42,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:40:42,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:40:42,796 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:40:42,796 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:40:42,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:40:42,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:40:42,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:40:42,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
 2024-08-01 17:40:42,988 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:40:42,988 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:40:43,006 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
@@ -10036,40 +10036,40 @@ Unconditional classes:
 2024-08-01 17:53:24,655 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@58f39564'
 2024-08-01 17:53:24,655 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
 2024-08-01 17:53:24,655 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2024-08-01 17:53:26,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:53:26,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-08-01 17:53:26,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:53:26,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-08-01 17:53:26,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:53:26,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-08-01 17:53:26,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:53:26,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-08-01 17:53:26,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:53:26,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-08-01 17:53:26,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:53:26,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-08-01 17:53:26,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:53:26,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-08-01 17:53:26,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:53:26,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-08-01 17:53:26,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:53:26,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-08-01 17:53:26,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:53:26,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-08-01 17:53:26,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:53:26,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-08-01 17:53:26,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:53:26,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-08-01 17:53:26,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:53:26,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-08-01 17:53:26,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:53:26,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-08-01 17:53:26,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-08-01 17:53:26,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:53:26,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:53:26,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.insert
+2024-08-01 17:53:26,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:53:26,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.delete
+2024-08-01 17:53:26,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:53:26,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteByMap
+2024-08-01 17:53:26,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:53:26,500 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteById
+2024-08-01 17:53:26,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:53:26,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.deleteBatchIds
+2024-08-01 17:53:26,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:53:26,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.update
+2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.updateById
+2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:53:26,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectById
+2024-08-01 17:53:26,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:53:26,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectBatchIds
+2024-08-01 17:53:26,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:53:26,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectByMap
+2024-08-01 17:53:26,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:53:26,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectOne
+2024-08-01 17:53:26,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:53:26,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectCount
+2024-08-01 17:53:26,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:53:26,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMaps
+2024-08-01 17:53:26,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:53:26,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectMapsPage
+2024-08-01 17:53:26,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:53:26,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectObjs
+2024-08-01 17:53:26,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:53:26,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectList
+2024-08-01 17:53:26,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
+2024-08-01 17:53:26,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.system.mapper.DictionaryMapper.selectPage
 2024-08-01 17:53:26,700 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:53:26,700 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-08-01 17:53:26,720 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
@@ -14208,8 +14208,8 @@ Unconditional classes:
 2024-08-01 17:55:48,742 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ac78fb1]
 2024-08-01 17:55:48,757 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:55:48,757 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:55:48,758 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:55:48,758 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:55:48,758 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:55:48,758 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:55:48,771 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:55:48,771 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:55:48,790 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
@@ -14268,8 +14268,8 @@ Unconditional classes:
 2024-08-01 17:56:02,235 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c9850fa]
 2024-08-01 17:56:02,236 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:02,236 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:02,236 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:56:02,236 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:56:02,236 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:56:02,236 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:56:02,238 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,238 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,318 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14302,8 +14302,8 @@ Unconditional classes:
 2024-08-01 17:56:02,327 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1389b1c3]
 2024-08-01 17:56:02,327 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:02,327 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:02,328 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:56:02,328 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:56:02,328 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:56:02,328 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:56:02,329 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,329 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,564 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14336,8 +14336,8 @@ Unconditional classes:
 2024-08-01 17:56:02,571 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a6c3df1]
 2024-08-01 17:56:02,572 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:02,572 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:02,572 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:56:02,572 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:56:02,572 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:56:02,572 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:56:02,573 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,573 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,678 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14370,8 +14370,8 @@ Unconditional classes:
 2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c56786a]
 2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:56:02,685 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:56:02,687 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:02,687 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:10,701 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14404,8 +14404,8 @@ Unconditional classes:
 2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fa0581f]
 2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:56:10,715 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:56:10,717 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:10,717 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:14,017 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14438,8 +14438,8 @@ Unconditional classes:
 2024-08-01 17:56:14,027 DEBUG [http-nio-63040-exec-7][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4006a43f]
 2024-08-01 17:56:14,029 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:14,029 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:14,029 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:56:14,029 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:56:14,029 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:56:14,029 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:56:14,030 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:14,030 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:18,805 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
@@ -14536,8 +14536,8 @@ Unconditional classes:
 2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d138f98]
 2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:56:22,252 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:56:22,253 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:22,253 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:56:48,820 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
@@ -14586,8 +14586,8 @@ Unconditional classes:
 2024-08-01 17:57:45,270 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6704ce29]
 2024-08-01 17:57:45,271 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:57:45,271 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:57:45,271 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:57:45,271 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:57:45,271 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:57:45,271 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:57:45,272 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:57:45,272 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:57:48,841 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
@@ -14628,8 +14628,8 @@ Unconditional classes:
 2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77afa15c]
 2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=22, companyId=1232141425, companyName=null, name=´óÊý¾Ý2, users=¾ßÓÐÒ»¶¨µÄja (truncated)...]
-2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=22, companyId=1232141425, companyName=null, name=´óÊý¾Ý2, users=¾ßÓÐÒ»¶¨µÄja (truncated)...]
+2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=22, companyId=1232141425, companyName=null, name=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2, users=ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ja (truncated)...]
+2024-08-01 17:57:49,095 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=22, companyId=1232141425, companyName=null, name=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2, users=ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ja (truncated)...]
 2024-08-01 17:57:49,098 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:57:49,098 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:57:51,583 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14662,8 +14662,8 @@ Unconditional classes:
 2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23e66d8f]
 2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=25, companyId=1232141425, companyName=null, name=Bootstrap¿ª·¢¿ò¼Ü, user (truncated)...]
-2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=25, companyId=1232141425, companyName=null, name=Bootstrap¿ª·¢¿ò¼Ü, user (truncated)...]
+2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=25, companyId=1232141425, companyName=null, name=Bootstrapï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, user (truncated)...]
+2024-08-01 17:57:51,591 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=25, companyId=1232141425, companyName=null, name=Bootstrapï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, user (truncated)...]
 2024-08-01 17:57:51,592 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:57:51,592 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:58:00,299 DEBUG [http-nio-63110-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
@@ -14702,8 +14702,8 @@ Unconditional classes:
 2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48e3536d]
 2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:58:00,392 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:58:00,393 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:58:00,393 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:58:18,845 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
@@ -14752,8 +14752,8 @@ Unconditional classes:
 2024-08-01 17:58:59,397 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d448d1e]
 2024-08-01 17:58:59,397 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:58:59,397 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:58:59,398 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:58:59,398 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:58:59,398 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:58:59,398 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:58:59,398 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:58:59,398 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:01,710 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14786,8 +14786,8 @@ Unconditional classes:
 2024-08-01 17:59:01,718 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c7c27e3]
 2024-08-01 17:59:01,719 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:01,719 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:01,719 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:59:01,719 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:59:01,719 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:59:01,719 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:59:01,720 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:01,720 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:02,072 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14820,8 +14820,8 @@ Unconditional classes:
 2024-08-01 17:59:02,079 DEBUG [http-nio-63040-exec-7][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b0fe6fe]
 2024-08-01 17:59:02,080 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:02,080 DEBUG [http-nio-63040-exec-7][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:02,080 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:59:02,080 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:59:02,080 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:59:02,080 DEBUG [http-nio-63040-exec-7][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:59:02,081 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:02,081 DEBUG [http-nio-63040-exec-7][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:02,719 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14854,8 +14854,8 @@ Unconditional classes:
 2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635dd877]
 2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:59:02,728 DEBUG [http-nio-63040-exec-8][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:59:02,729 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:02,729 DEBUG [http-nio-63040-exec-8][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:02,813 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14888,8 +14888,8 @@ Unconditional classes:
 2024-08-01 17:59:02,823 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dd2c53d]
 2024-08-01 17:59:02,823 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:02,823 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:02,824 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:59:02,824 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:59:02,824 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:59:02,824 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:59:02,825 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:02,825 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:07,093 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -14922,8 +14922,8 @@ Unconditional classes:
 2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@143af655]
 2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:59:07,102 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:59:07,103 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:07,103 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:09,210 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -15012,8 +15012,8 @@ Unconditional classes:
 2024-08-01 17:59:12,435 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79cdaa29]
 2024-08-01 17:59:12,435 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:12,435 DEBUG [http-nio-63040-exec-2][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:12,437 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
-2024-08-01 17:59:12,437 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ÖÐÒ«½²java, users=gro (truncated)...]
+2024-08-01 17:59:12,437 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
+2024-08-01 17:59:12,437 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=72, companyId=1232141425, companyName=null, name=Â¬ï¿½ï¿½Ò«ï¿½ï¿½java, users=gro (truncated)...]
 2024-08-01 17:59:12,438 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:12,438 DEBUG [http-nio-63040-exec-2][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:17,010 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
@@ -15046,8 +15046,8 @@ Unconditional classes:
 2024-08-01 17:59:17,017 DEBUG [http-nio-63040-exec-9][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3051152d]
 2024-08-01 17:59:17,017 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:17,017 DEBUG [http-nio-63040-exec-9][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:17,018 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:59:17,018 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:59:17,018 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:59:17,018 DEBUG [http-nio-63040-exec-9][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:59:17,018 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:17,018 DEBUG [http-nio-63040-exec-9][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:18,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
@@ -15096,8 +15096,8 @@ Unconditional classes:
 2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63a4ed64]
 2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
-2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ÐÂÌØÐÔ½²½â, users=j (truncated)...]
+2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
+2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½, users=j (truncated)...]
 2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:21,577 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
 2024-08-01 17:59:21,579 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - "ERROR" dispatch for POST "/content/error", parameters={}
