@@ -1,0 +1,10 @@
+POST {{gateway_host}}/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="2.jpg"
+Content-Type: application/octet-stream
+
+< D:/Minio/LocalData/2.jpg
+
+

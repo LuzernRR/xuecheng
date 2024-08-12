@@ -1,0 +1,150 @@
+2024-08-10 14:22:08,790 ERROR [http-nio-63050-exec-10][GlobalExceptionHandler.java:39] - 系统异常:The specified key does not exist.
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, resource = /video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, requestId = 17EA49C789041630, hostId = d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f)
+request={method=GET, url=http://127.0.0.1:9005/video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, headers=Host: 127.0.0.1:9005
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 11; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240810T062208Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240810/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 405
+Content-Type: application/xml
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f
+X-Amz-Request-Id: 17EA49C789041630
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Sat, 10 Aug 2024 06:22:08 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-10 14:22:47,420 ERROR [http-nio-63050-exec-3][GlobalExceptionHandler.java:39] - 系统异常:The specified key does not exist.
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, resource = /video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, requestId = 17EA49D088B16BD4, hostId = d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f)
+request={method=GET, url=http://127.0.0.1:9005/video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, headers=Host: 127.0.0.1:9005
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 11; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240810T062247Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240810/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 405
+Content-Type: application/xml
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f
+X-Amz-Request-Id: 17EA49D088B16BD4
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Sat, 10 Aug 2024 06:22:47 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-10 14:26:03,619 ERROR [http-nio-63050-exec-7][GlobalExceptionHandler.java:39] - 系统异常:The specified key does not exist.
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, resource = /video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, requestId = 17EA49FE371BC084, hostId = d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f)
+request={method=GET, url=http://127.0.0.1:9005/video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, headers=Host: 127.0.0.1:9005
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 11; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240810T062603Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240810/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 405
+Content-Type: application/xml
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f
+X-Amz-Request-Id: 17EA49FE371BC084
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Sat, 10 Aug 2024 06:26:03 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-10 14:26:53,511 ERROR [http-nio-63050-exec-10][GlobalExceptionHandler.java:39] - 系统异常:The specified key does not exist.
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, resource = /video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, requestId = 17EA4A09D4EB9040, hostId = d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f)
+request={method=GET, url=http://127.0.0.1:9005/video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, headers=Host: 127.0.0.1:9005
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 11; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240810T062653Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240810/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 405
+Content-Type: application/xml
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f
+X-Amz-Request-Id: 17EA4A09D4EB9040
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Sat, 10 Aug 2024 06:26:53 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-10 14:30:32,010 ERROR [http-nio-63050-exec-3][GlobalExceptionHandler.java:39] - 系统异常:The specified key does not exist.
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, resource = /video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, requestId = 17EA4A3CB429DA78, hostId = d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f)
+request={method=GET, url=http://127.0.0.1:9005/video/a/d/add6d2ff3281c827040a1a8f68accc09/chunk/0, headers=Host: 127.0.0.1:9005
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 11; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240810T063032Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240810/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 405
+Content-Type: application/xml
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: d0af7ef13e9a79de08686e85c361d9af88c5ebdbbacf07a734ab2c11fd85e57f
+X-Amz-Request-Id: 17EA4A3CB429DA78
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Sat, 10 Aug 2024 06:30:32 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
