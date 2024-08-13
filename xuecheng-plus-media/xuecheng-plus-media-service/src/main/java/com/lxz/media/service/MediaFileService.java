@@ -9,6 +9,7 @@ import com.lxz.media.model.dto.UploadFileResultDto;
 import com.lxz.media.model.po.MediaFiles;
 import io.minio.errors.*;
 
+import java.io.File;
 import java.io.IOException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -31,6 +32,9 @@ public interface MediaFileService {
  */
  public PageResult<MediaFiles> queryMediaFiels(Long companyId,PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
 
+ // ==================上传文件到minio====================
+ boolean addMediaFilesToMinIO(String localFilePath, String mimeType, String bucket, String objectName);
+
  /**
   * 上传文件
   * @param companyId 机构id
@@ -49,4 +53,6 @@ public interface MediaFileService {
  RestResponse uploadChunk(String fileMd5, int chunk, String localFilePath);
 
  RestResponse mergechunks(long l, String fileMd5, int chunkTotal, UploadFileParamsDto uploadFileParamsDto) throws ServerException, InsufficientDataException, ErrorResponseException, IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException;
+
+ File downloadFileFromMinio(String bucket, String objectname);
 }
