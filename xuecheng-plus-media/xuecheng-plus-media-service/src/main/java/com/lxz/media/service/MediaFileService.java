@@ -42,7 +42,7 @@ public interface MediaFileService {
   * @param localFilePath 文件本地路径
   * @return UploadFileResultDto
   */
- public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
+ public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath, String objectName);
 
  public MediaFiles addMediaFilesToDb(Long companyId,String fileMd5,UploadFileParamsDto uploadFileParamsDto,String bucket,String objectName);
 
@@ -55,4 +55,6 @@ public interface MediaFileService {
  RestResponse mergechunks(long l, String fileMd5, int chunkTotal, UploadFileParamsDto uploadFileParamsDto) throws ServerException, InsufficientDataException, ErrorResponseException, IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException;
 
  File downloadFileFromMinio(String bucket, String objectname);
+
+    MediaFiles getFileById(String mediaId);
 }

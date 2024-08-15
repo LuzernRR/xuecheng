@@ -21,6 +21,7 @@ import io.minio.errors.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -67,6 +68,10 @@ public class MediaFileServiceImpl implements MediaFileService {
     @Autowired
     private MediaProcessMapper mediaProcessMapper;
 
+    @Override
+    public MediaFiles getFileById(String mediaId) {
+        return mediaFilesMapper.selectById(mediaId);
+    }
     @Override
     // ==================查询媒体文件列表====================
     public PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto) {
@@ -154,7 +159,7 @@ public class MediaFileServiceImpl implements MediaFileService {
 
     @Override
     // ==================上传文件(未分块)====================
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath, String objectName) {
 
         //拿到文件名
         String filename = uploadFileParamsDto.getFilename();
@@ -169,7 +174,10 @@ public class MediaFileServiceImpl implements MediaFileService {
         // 获取文件的md5
         String fileMd5 = getFileMd5(new File(localFilePath));
         // objectName：文件夹日期路径+md5文件名+扩展名
-        String objectName = defaultFolderPath + fileMd5 + extension;
+        if (StringUtils.isEmpty(objectName)) {
+            // 如果没有传入objectName，则使用默认的文件夹路径+md5文件名+扩展名
+            objectName = defaultFolderPath + fileMd5 + extension;
+        }
         //上传文件到minio，返回boolean
         boolean result = addMediaFilesToMinIO(localFilePath, mimeType, bucket_mediafiles, objectName);
         if (!result) {

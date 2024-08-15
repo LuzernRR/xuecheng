@@ -11,11 +11,18 @@ spring:
   cloud:
     nacos:
       server-addr: 192.168.128.1:8848
+      discovery:
+        namespace: 54a51513-52f2-4d52-b774-caba911f8f39
+        group: xuecheng-plus-project
       config: # 配置文件相关信息
         namespace: 54a51513-52f2-4d52-b774-caba911f8f39
         group: xuecheng-plus-project
         file-extension: yaml
         refresh-enabled: true
+        shared-configs:
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
   profiles:
     active: dev  # 指定当前环境，对应配置文件content-api-dev.yaml的后缀
 

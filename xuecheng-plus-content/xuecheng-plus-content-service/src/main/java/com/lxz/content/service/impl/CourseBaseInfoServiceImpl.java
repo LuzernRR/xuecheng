@@ -128,6 +128,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
     // 查询课程信息
     @Override
+    @Transactional
     public CourseBaseInfoDto getCourseBaseInfo(Long courseId){
         // 从课程信息表查询
         CourseBase courseBase = courseBaseMapper.selectById(courseId);

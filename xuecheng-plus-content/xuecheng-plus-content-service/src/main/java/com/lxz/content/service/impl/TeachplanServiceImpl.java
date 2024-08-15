@@ -1,15 +1,21 @@
 package com.lxz.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.lxz.base.exception.XueChengPlusException;
 import com.lxz.content.mapper.TeachplanMapper;
+import com.lxz.content.mapper.TeachplanMediaMapper;
 import com.lxz.content.model.dto.SaveTeachplanDto;
 import com.lxz.content.model.dto.TeachplanDto;
 import com.lxz.content.model.po.Teachplan;
+import com.lxz.content.model.po.TeachplanMedia;
 import com.lxz.content.service.TeachplanService;
+import com.lxz.media.model.dto.BindTeachplanMediaDto;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.List;
 
@@ -22,6 +28,9 @@ import java.util.List;
 public class TeachplanServiceImpl implements TeachplanService {
     @Autowired
     TeachplanMapper teachplanMapper;
+
+    @Autowired
+    TeachplanMediaMapper teachplanMediaMapper;
 
     @Override
     public List<TeachplanDto> findTeachplanTree(Long courseId) {
@@ -58,6 +67,36 @@ public class TeachplanServiceImpl implements TeachplanService {
             teachplanMapper.updateById(teachplan);
         }
 
+    }
+    @Transactional
+    @Override
+    public void associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
+        // 课程id
+        Long teachplanId = bindTeachplanMediaDto.getTeachplanId();
+        // 查询课程信息
+        Teachplan teachplan = teachplanMapper.selectById(teachplanId);
+        if (teachplan == null) {
+            XueChengPlusException.cast("教学计划不存在");
+        }
+        // 判断课程计划是否为2级
+        Integer grade = teachplan.getGrade();
+        if (grade != 2){
+            XueChengPlusException.cast("只能为第二级课程计划绑定媒资信息");
+        }
+        // 课程id
+        Long courseId = teachplan.getCourseId();
+        // ===========先删除原有记录===============
+        // 根据课程计划id删除绑定的媒资
+        // 使用lambda表达式查询TeachplanMedia中与bindTeachplanMediaDto.getTeachplanId()相等的记录
+        int delete = teachplanMediaMapper.delete(new LambdaQueryWrapper<TeachplanMedia>().eq(TeachplanMedia::getTeachplanId, bindTeachplanMediaDto.getTeachplanId()));
+        // ===========添加新的关联关系============
+        TeachplanMedia teachplanMedia = new TeachplanMedia();
+        BeanUtils.copyProperties(bindTeachplanMediaDto, teachplanMedia);
+        teachplanMedia.setCourseId(courseId);
+        teachplanMedia.setTeachplanId(teachplanId);
+        teachplanMedia.setMediaFilename(bindTeachplanMediaDto.getFileName());
+        teachplanMedia.setCreateDate(LocalDateTime.now());
+        teachplanMediaMapper.insert(teachplanMedia);
     }
 
     private Integer getTeachplanCount(Long courseId, Long parentId) {

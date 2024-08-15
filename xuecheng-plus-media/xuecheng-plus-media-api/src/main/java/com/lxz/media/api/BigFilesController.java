@@ -76,7 +76,6 @@ public class BigFilesController {
         uploadFileParamsDto.setFileType("001002");
         RestResponse restResponse = mediaFileService.mergechunks(1232141425L, fileMd5, chunkTotal, uploadFileParamsDto);
         return restResponse;
-
     }
 
 

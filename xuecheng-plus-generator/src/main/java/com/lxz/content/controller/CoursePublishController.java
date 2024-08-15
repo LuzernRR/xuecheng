@@ -16,10 +16,10 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @author itcast
  */
 @Slf4j
-@RestController
+//@RestController
 @RequestMapping("coursePublish")
 public class CoursePublishController {
 
-    @Autowired
+//    @Autowired
     private CoursePublishService  coursePublishService;
 }
