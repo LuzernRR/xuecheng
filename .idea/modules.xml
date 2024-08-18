@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-checkcode/xuecheng-plus-checkcode.iml" filepath="$PROJECT_DIR$/xuecheng-plus-checkcode/xuecheng-plus-checkcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media.iml" filepath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/xuecheng-plus-media-api.iml" filepath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/xuecheng-plus-media-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/xuecheng-plus-media-model.iml" filepath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/xuecheng-plus-media-model.iml" />

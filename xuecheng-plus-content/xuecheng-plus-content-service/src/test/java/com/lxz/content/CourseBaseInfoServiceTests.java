@@ -1,7 +1,6 @@
 package com.lxz.content;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lxz.base.model.PageParams;
 import com.lxz.base.model.PageResult;
@@ -9,6 +8,7 @@ import com.lxz.content.mapper.CourseBaseMapper;
 import com.lxz.content.model.dto.QueryCourseParamsDto;
 import com.lxz.content.model.po.CourseBase;
 import com.lxz.content.service.CourseBaseInfoService;
+import org.apache.commons.lang.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,17 +24,18 @@ public class CourseBaseInfoServiceTests {
 
     @Test
     public void testCourseBaseMapper(){
-        // ²éÑ¯Ìõ¼þ
+        // ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½
         QueryCourseParamsDto courseParamsDto = new QueryCourseParamsDto();
-        courseParamsDto.setCourseName("java"); // ¿Î³ÌÃû³Æ²éÑ¯Ìõ¼þ
-        courseParamsDto.setAuditStatus("202001"); // ÉóºË×´Ì¬²éÑ¯Ìõ¼þ
-        // ·ÖÒ³²ÎÊý¶ÔÏó
+        courseParamsDto.setCourseName("java"); // ï¿½Î³ï¿½ï¿½ï¿½ï¿½Æ²ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½
+        courseParamsDto.setAuditStatus("202001"); // ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½
+        // ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         PageParams pageParams = new PageParams();
         pageParams.setPageNo(1L);
         pageParams.setPageSize(10L);
-
-        // µ÷ÓÃservice²éÑ¯¿Î³ÌÐÅÏ¢
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, courseParamsDto);
+        // ï¿½ï¿½Ñ¯ï¿½Î³ï¿½ï¿½ï¿½Ï¢
+        Long companyId = 1L;
+        // ï¿½ï¿½ï¿½ï¿½serviceï¿½ï¿½Ñ¯ï¿½Î³ï¿½ï¿½ï¿½Ï¢
+        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(companyId, pageParams, courseParamsDto);
         System.out.println(courseBasePageResult);
     }
 }

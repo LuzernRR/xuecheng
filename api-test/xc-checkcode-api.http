@@ -1,0 +1,8 @@
+
+###// 申请验证码
+POST {{checkcode_host}}/checkcode/pic
+
+###// 校验验证码
+POST {{checkcode_host}}/checkcode/verify?key=checkcode:9b546a9a988243f09c05b5983c006f28&code=2IUC
+
+

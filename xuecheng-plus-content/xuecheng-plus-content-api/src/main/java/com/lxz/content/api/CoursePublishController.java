@@ -1,6 +1,7 @@
 package com.lxz.content.api;
 
 import com.lxz.content.model.dto.CoursePreviewDto;
+import com.lxz.content.model.po.CoursePublish;
 import com.lxz.content.service.CoursePublishService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,4 +45,11 @@ public class CoursePublishController {
         coursePublishService.publish(companyId, courseId);
     }
 
+    @ApiOperation("查询课程发布信息")
+    @ResponseBody
+    @GetMapping("/r/coursepublish/{courseId}")
+    public CoursePublish getCoursepublish(@PathVariable("courseId") Long courseId){
+        // 查询课程发布信息
+        return coursePublishService.getCoursepublish(courseId);
+    }
 }

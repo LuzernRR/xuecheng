@@ -1,6 +1,7 @@
 package com.lxz.content.service;
 
 import com.lxz.content.model.dto.CoursePreviewDto;
+import com.lxz.content.model.po.CoursePublish;
 import freemarker.template.TemplateException;
 import org.springframework.stereotype.Service;
 
@@ -24,4 +25,8 @@ public interface CoursePublishService {
 
     // 上传静态页面到minio
     public void uploadHtmlToMinio(Long courseId, File htmlFile);
+
+    CoursePublish getCoursepublish(Long courseId);
+
+    // 
 }

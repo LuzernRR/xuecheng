@@ -40,17 +40,18 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     CourseCategoryMapper courseCategoryMapper;
 
     @Override
-    public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto courseParamsDto) {
-        // 拼装查询条件
+    public PageResult<CourseBase> queryCourseBaseList(Long companyId, PageParams pageParams, QueryCourseParamsDto courseParamsDto) {
+        // ==========拼装查询条件==============
         LambdaQueryWrapper<CourseBase> queryWrapper = new LambdaQueryWrapper<>();
         // 根据名称模糊查询， 在sql中拼接courseName like '%java%'
         queryWrapper.like(StringUtils.isNotEmpty(courseParamsDto.getCourseName()), CourseBase::getName, courseParamsDto.getCourseName());
-        // 根据课程审核状态查询， 在sql中拼接audit_status = ？
+        // ===根据课程审核状态查询， 在sql中拼接audit_status = ？===
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getAuditStatus()), CourseBase::getAuditStatus, courseParamsDto.getAuditStatus());
-        // 按课程发布状态查询
+        // ===按课程发布状态查询===
         queryWrapper.eq(StringUtils.isNotEmpty(courseParamsDto.getPublishStatus()), CourseBase::getStatus, courseParamsDto.getPublishStatus());
-
-        // 创建page分页参数对象，当前页1，每页显示10条
+        // ===根据培训机构id查询，用户只能查询本机构的课程===
+        queryWrapper.eq(CourseBase::getCompanyId, companyId);
+        // ==============创建page分页参数对象，当前页1，每页显示10条================
         Page<CourseBase> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
         // 执行分页查询
         Page<CourseBase> pageResult = courseBaseMapper.selectPage(page, queryWrapper);

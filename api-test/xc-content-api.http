@@ -1,3 +1,4 @@
+### 课程分类查询
 POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=2
 Content-Type: application/json
 
@@ -7,3 +8,14 @@ Content-Type: application/json
   "courseName": "java",
   "publishStatus": ""
 }
+
+
+### 课程查询
+GET {{content_host}}/content/course/40
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MjM4MTgzNjMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImQxNjllYWNiLWQ1ZGMtNDY3YS05ZjQ1LTE1ZTE5NzAxOTRkYSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.xE__5IMURi550ObKRm2KKVU5zvWJr1v1lmsCbTOvsxc
+
+### 通过网关课程查询
+GET {{gateway_host}}/content/course/40
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJjb21wYW55SWRcIjpcIjEyMzIxNDE0MjVcIixcImNyZWF0ZVRpbWVcIjpcIjIwMjItMDktMjhUMDg6MzI6MDNcIixcImlkXCI6XCI1MlwiLFwibmFtZVwiOlwiTeiAgeW4iFwiLFwic2V4XCI6XCIxXCIsXCJzdGF0dXNcIjpcIlwiLFwidXNlcm5hbWVcIjpcInQxXCIsXCJ1dHlwZVwiOlwiMTAxMDAyXCJ9Iiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcyMzgyNjE1MiwiYXV0aG9yaXRpZXMiOlsidGVzdCJdLCJqdGkiOiIxMjhlNWRkYS02Y2MyLTQ4YjEtYjA3Mi1mZWE0NzgzM2M2NmIiLCJjbGllbnRfaWQiOiJYY1dlYkFwcCJ9.9G9f18Q54WvQMrd47ufrlIauF_h306YjVaAnAvAzIbI

@@ -7,6 +7,8 @@ package com.lxz.content.jobhandler;
  */
 
 import com.lxz.base.exception.XueChengPlusException;
+import com.lxz.content.mapper.CoursePublishMapper;
+import com.lxz.content.model.po.CoursePublish;
 import com.lxz.content.service.CoursePublishService;
 import com.lxz.messagesdk.model.po.MqMessage;
 import com.lxz.messagesdk.service.MessageProcessAbstract;
@@ -14,6 +16,7 @@ import com.lxz.messagesdk.service.MqMessageService;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -27,6 +30,9 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
     @Autowired
     CoursePublishService coursePublishService;
+    @Autowired
+    private CoursePublishMapper coursePublishMapper;
+
     // 任务调度入口
     @XxlJob("CoursePublishJobHandler")
     public void coursePublishJobHandler(){
@@ -84,7 +90,15 @@ public class CoursePublishTask extends MessageProcessAbstract {
             log.debug("课程索引任务已经执行");
             return;
         }
-        // 查询课程信息，调用搜索服务保存课程信息
+        // 查询课程信息，调用搜索服务保存课程信息(未实现)
+//        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+//        CourseIndex courseIndex = new CourseIndex();
+//        BeanUtils.copyProperties(coursePublish, courseIndex);
+//        // 远程调用
+//        Boolean add = searchServiceClient.add(courseIndex)
+//        if (add == null) {
+//            XueChengPlusException.cast("保存课程信息到elasticsearch失败");
+//        }
 
         // 任务处理完成后，更新任务状态
         messageService.completedStageTwo(taskId);

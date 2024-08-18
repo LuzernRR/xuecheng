@@ -15,7 +15,7 @@ import com.lxz.content.model.po.CourseBase;
 public interface CourseBaseInfoService {
     // 课程分页查询
     // 返回值为Controller返回的对象
-    public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto courseParamsDto);
+    public PageResult<CourseBase> queryCourseBaseList(Long companyId, PageParams pageParams, QueryCourseParamsDto courseParamsDto);
 
     // companyId：用户所属机构id
     // addCourseDto：新增课程信息

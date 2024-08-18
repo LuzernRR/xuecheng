@@ -37,7 +37,10 @@ public class GlobalExceptionHandler {
     public RestErrorResponse exception(Exception e){
         // 记录异常
         log.error("系统异常:{}",e.getMessage(), e);
-
+        if (e.getMessage().equals("不允许访问")){
+            XueChengPlusException.cast("您没有操作权限！");
+            return new RestErrorResponse("您没有操作权限！");
+        }
         // 解析出异常信息
         RestErrorResponse restErrorResponse = new RestErrorResponse(CommonError.UNKOWN_ERROR.getErrMessage());
         return restErrorResponse;

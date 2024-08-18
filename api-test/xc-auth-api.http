@@ -1,0 +1,25 @@
+### 授权码模式
+### 第一步申请授权码(浏览器请求/oauth/authorize?client_id=c1&response_type=code&scope=all&redirect_uri=http://www.51xuecheng.cn
+### 第二步申请令牌，将http://www.51xuecheng.cn/?code=xdVwCu中的授权码复制到下面的请求中
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=xdVwCu&redirect_uri=http://www.51xuecheng.cn
+
+### 得到令牌
+#{
+#  "access_token": "7d316bf8-66d7-4996-ab74-1d6da17399c7",
+#  "token_type": "bearer",
+#  "refresh_token": "c1cdcb31-a9cf-4d00-85c2-76b15a56508c",
+#  "expires_in": 7199,
+#  "scope": "all"
+#}
+
+### 密码模式
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
+
+### 校验JWT令牌,用于解析JWT令牌中的用户信息
+POST {{auth_host}}/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MjM4MTgzNjMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImQxNjllYWNiLWQ1ZGMtNDY3YS05ZjQ1LTE1ZTE5NzAxOTRkYSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.xE__5IMURi550ObKRm2KKVU5zvWJr1v1lmsCbTOvsxc
+
+### 密码模式，从数据库中查询用户信息
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=t1&password=111111
+
+### 密码模式，请求AuthParamsDto参数
+POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"t1","password":"111111","authType":"password"}

@@ -233,4 +233,10 @@ public class CoursePublishServiceImpl implements CoursePublishService {
             XueChengPlusException.cast("向消息表写入数据失败");
         }
     }
+
+    @Override
+    // 查询课程发布信息
+    public CoursePublish getCoursepublish(Long courseId) {
+        return coursePublishMapper.selectById(courseId);
+    }
 }
