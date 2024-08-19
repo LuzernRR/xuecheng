@@ -1,0 +1,30 @@
+### 搜索课程
+GET {{search_host}}/search/course/list?pageNo=1&keywords=spring
+Content-Type: application/json
+
+### 搜索课程
+GET {{search_host}}/search/index/course
+Content-Type: application/json
+
+{
+    "companyId": 1232141425,
+    "id": 1,
+    "name": "JAVA8/9新特性讲解测试",
+    "users": "java爱好者,有一定java基础",
+    "tags": "有个java 版本变化的新内容，帮助大家使用最新的思想和工具2",
+    "mt": "1-10",
+    "mtName": "研发管理",
+    "st": "1-10-2",
+    "stName": "软件设计",
+    "grade": "204002",
+    "teachmode": "200002",
+    "pic": "/mediafiles/2024/08/14/63e9948112514428a7e0f5d3f48f7f77.jpg",
+    "description": ",
+    "createDate": "2024-08-19T10:25:01",
+    "status": "202004",
+    "remark": null,
+    "charge": "201001",
+    "price": 20.0,
+    "originalPrice": 110.0,
+    "validDays": 10
+}

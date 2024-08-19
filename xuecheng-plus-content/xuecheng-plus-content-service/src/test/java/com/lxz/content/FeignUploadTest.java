@@ -26,10 +26,10 @@ public class FeignUploadTest {
     @Test
     public void test() throws IOException {
         // 将file类型转为MultipartFile类型
-         File file = new File("D:\\Minio\\LocalData\\HTML\\1.html");
+         File file = new File("D:\\Minio\\LocalData\\HTML\\18.html");
          // 调用方法将file转为MultipartFile
         MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
-        mediaServiceClient.upload(multipartFile, "course/1.html");
+        mediaServiceClient.upload(multipartFile, "course/18.html");
 
     }
 }

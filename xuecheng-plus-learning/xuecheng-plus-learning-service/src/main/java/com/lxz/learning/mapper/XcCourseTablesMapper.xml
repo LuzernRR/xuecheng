@@ -3,7 +3,7 @@
 <mapper namespace="com.lxz.learning.mapper.XcCourseTablesMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="po.model.com.lxz.learning.XcCourseTables">
+    <resultMap id="BaseResultMap" type="com.lxz.learning.model.po.XcCourseTables">
         <id column="id" property="id" />
         <result column="choose_course_id" property="chooseCourseId" />
         <result column="user_id" property="userId" />

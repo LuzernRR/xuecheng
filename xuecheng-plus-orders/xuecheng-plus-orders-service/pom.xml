@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>xuecheng-plus-orders</artifactId>
-        <groupId>com.xuecheng</groupId>
+        <groupId>com.lxz</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>xuecheng-plus-orders-service</artifactId>
@@ -19,12 +19,12 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.xuecheng</groupId>
+            <groupId>com.lxz</groupId>
             <artifactId>xuecheng-plus-message-sdk</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.xuecheng</groupId>
+            <groupId>com.lxz</groupId>
             <artifactId>xuecheng-plus-orders-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

@@ -11,6 +11,7 @@ import com.lxz.messagesdk.model.po.MqMessageHistory;
  * @author itcast
  * @since 2022-09-21
  */
+
 public interface MqMessageHistoryService extends IService<MqMessageHistory> {
 
 }

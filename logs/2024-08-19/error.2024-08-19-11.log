@@ -1,0 +1,5 @@
+2024-08-19 12:00:38,978 ERROR [http-nio-63020-exec-1][GlobalExceptionHandler.java:27] - 系统异常:课程不存在
+2024-08-19 12:00:40,859 ERROR [http-nio-63020-exec-2][GlobalExceptionHandler.java:27] - 系统异常:课程不存在
+2024-08-19 12:00:43,896 ERROR [http-nio-63020-exec-3][GlobalExceptionHandler.java:27] - 系统异常:课程不存在
+2024-08-19 12:00:49,238 ERROR [http-nio-63020-exec-5][GlobalExceptionHandler.java:27] - 系统异常:课程不存在
+2024-08-19 12:01:25,509 ERROR [http-nio-63020-exec-6][GlobalExceptionHandler.java:27] - 系统异常:课程不存在

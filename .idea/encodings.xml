@@ -3,6 +3,7 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/api-test/xc-checkcode-api.http" charset="GBK" />
     <file url="file://$PROJECT_DIR$/api-test/xc-course-api.http" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/api-test/xc-search-api.http" charset="GBK" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-base/src/main/java" charset="UTF-8" />
@@ -39,8 +40,20 @@
     <file url="file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/xuecheng-plus-orders-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/xuecheng-plus-orders-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/xuecheng-plus-orders-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/xuecheng-plus-orders-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/xuecheng-plus-orders-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-orders/xuecheng-plus-orders-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-search/xuecheng-plus-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-search/xuecheng-plus-search/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-system/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-system/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java" charset="UTF-8" />

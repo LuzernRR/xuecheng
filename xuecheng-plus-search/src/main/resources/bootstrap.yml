@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: search
+  cloud:
+    nacos:
+      server-addr: 192.168.128.1:8848
+      discovery:
+        namespace: 54a51513-52f2-4d52-b774-caba911f8f39
+        group: xuecheng-plus-project
+      config:
+        namespace: 54a51513-52f2-4d52-b774-caba911f8f39
+        group: xuecheng-plus-project
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+
+  profiles:
+    active: dev

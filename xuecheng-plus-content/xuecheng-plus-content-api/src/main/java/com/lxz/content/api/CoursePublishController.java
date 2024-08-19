@@ -26,7 +26,7 @@ public class CoursePublishController {
         // 查询课程信息作为模型数据
         CoursePreviewDto coursePreviewInfo = coursePublishService.getCoursePreviewInfo(courseId);
         modelAndView.addObject("model", coursePreviewInfo);
-        modelAndView.setViewName("course_template1");
+        modelAndView.setViewName("course_template");
         return modelAndView;
     }
 

@@ -1,10 +1,13 @@
 package com.lxz.learning.api;
 
+import com.lxz.base.exception.XueChengPlusException;
 import com.lxz.base.model.PageResult;
 import com.lxz.learning.model.dto.MyCourseTableParams;
 import com.lxz.learning.model.dto.XcChooseCourseDto;
 import com.lxz.learning.model.dto.XcCourseTablesDto;
 import com.lxz.learning.model.po.XcCourseTables;
+import com.lxz.learning.service.MycourseTablesService;
+import com.lxz.learning.util.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -26,19 +29,35 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyCourseTablesController {
 
+    @Autowired
+    MycourseTablesService mycourseTablesService;
 
     @ApiOperation("添加选课")
-    @PostMapping("/choosecourse/{courseId}")
+    @PostMapping("/choosecourse/learnstatus/{courseId}")
     public XcChooseCourseDto addChooseCourse(@PathVariable("courseId") Long courseId) {
+        // 1.获取当前登录用户
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        if (user == null) {
+            XueChengPlusException.cast("用户未登录");
+        }
+        String id = user.getId();
 
-        return null;
+        // 2.添加选课
+        XcChooseCourseDto xcChooseCourseDto = mycourseTablesService.addChooseCourse(id, courseId);
+        return xcChooseCourseDto;
     }
 
     @ApiOperation("查询学习资格")
-    @PostMapping("/choosecourse/learnstatus/{courseId}")
+    @PostMapping("/choosecourse/{courseId}")
     public XcCourseTablesDto getLearnstatus(@PathVariable("courseId") Long courseId) {
-
-        return null;
+        // 1.获取当前登录用户
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        if (user == null) {
+            XueChengPlusException.cast("用户未登录");
+        }
+        String id = user.getId();
+        XcCourseTablesDto learnStatus = mycourseTablesService.getLearnStatus(id, courseId);
+        return learnStatus;
 
     }
 

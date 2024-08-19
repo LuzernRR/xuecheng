@@ -1,7 +1,9 @@
 package com.lxz.learning.mapper;
 
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.xuecheng.learning.model.po.XcCourseTables;
+import com.lxz.learning.model.po.XcCourseTables;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>

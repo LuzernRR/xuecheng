@@ -40,9 +40,9 @@ public class FreemarkerTest {
         // 指定编码
         configuration.setDefaultEncoding("utf-8");
         // 得到模板
-        Template template = configuration.getTemplate("course_template.ftl");
+        Template template = configuration.getTemplate("course_template2.ftl");
         // 准备数据
-        CoursePreviewDto coursePreviewInfo = coursePublishService.getCoursePreviewInfo(1L);
+        CoursePreviewDto coursePreviewInfo = coursePublishService.getCoursePreviewInfo(18L);
         // 使用map作为数据模型
         HashMap<Object, Object> map = new HashMap<>();
         map.put("model", coursePreviewInfo);
@@ -52,7 +52,7 @@ public class FreemarkerTest {
         // ===========使用流将html写入文件================
         //  输入流
         InputStream inputStream = IOUtils.toInputStream(html, "utf-8");
-        FileOutputStream outputStream = new FileOutputStream(new File("D:\\Minio\\LocalData\\HTML\\1.html"));
+        FileOutputStream outputStream = new FileOutputStream(new File("D:\\Minio\\LocalData\\HTML\\18.html"));
         // 写入文件
         IOUtils.copy(inputStream, outputStream);
     }

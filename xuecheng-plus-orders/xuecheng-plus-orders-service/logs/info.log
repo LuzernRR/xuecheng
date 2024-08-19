@@ -2,12 +2,12 @@
 2022-10-02 10:33:26,246 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
 2022-10-02 10:33:26,910 DEBUG [main][MybatisPlusAutoConfiguration.java:278] - Searching for mappers annotated with @Mapper
 2022-10-02 10:33:26,910 DEBUG [main][MybatisPlusAutoConfiguration.java:278] - Searching for mappers annotated with @Mapper
-2022-10-02 10:33:26,911 DEBUG [main][MybatisPlusAutoConfiguration.java:282] - Using auto-configuration base package 'com.xuecheng.orders'
-2022-10-02 10:33:26,911 DEBUG [main][MybatisPlusAutoConfiguration.java:282] - Using auto-configuration base package 'com.xuecheng.orders'
+2022-10-02 10:33:26,911 DEBUG [main][MybatisPlusAutoConfiguration.java:282] - Using auto-configuration base package 'com.lxz.orders'
+2022-10-02 10:33:26,911 DEBUG [main][MybatisPlusAutoConfiguration.java:282] - Using auto-configuration base package 'com.lxz.orders'
 2022-10-02 10:33:27,215 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
 2022-10-02 10:33:27,215 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2022-10-02 10:33:27,225 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.orders]' package. Please check your configuration.
-2022-10-02 10:33:27,225 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.orders]' package. Please check your configuration.
+2022-10-02 10:33:27,225 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.lxz.orders]' package. Please check your configuration.
+2022-10-02 10:33:27,225 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.lxz.orders]' package. Please check your configuration.
 2022-10-02 10:33:27,404 INFO [main][GenericScope.java:295] - BeanFactory id=fb68bc2b-5232-39c6-ab75-176e28f7e2d3
 2022-10-02 10:33:27,404 INFO [main][GenericScope.java:295] - BeanFactory id=fb68bc2b-5232-39c6-ab75-176e28f7e2d3
 2022-10-02 10:33:27,790 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
@@ -110,8 +110,8 @@
 2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
 2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=logging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devorders-servicexuecheng-plus-projectdevorders-service-dev.yamlxuecheng-plus-project82909c1ca114c12650e9141ff2eb737fdevorders-service.yamlxuecheng-plus-projectdev, tenant=dev}
 2022-10-02 10:33:37,087 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6e6e5ea4]
-2022-10-02 10:33:37,156 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c97f5e9] to prepare test instance [com.xuecheng.orders.Test1@32e7b78d]
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.xuecheng.orders.Test1': Unsatisfied dependency expressed through field 'mqMessageHistoryMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-02 10:33:37,156 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c97f5e9] to prepare test instance [com.lxz.orders.Test1@32e7b78d]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.lxz.orders.Test1': Unsatisfied dependency expressed through field 'mqMessageHistoryMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lxz.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -182,14 +182,14 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lxz.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 69 more
-2022-10-02 10:33:37,156 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c97f5e9] to prepare test instance [com.xuecheng.orders.Test1@32e7b78d]
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.xuecheng.orders.Test1': Unsatisfied dependency expressed through field 'mqMessageHistoryMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-02 10:33:37,156 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c97f5e9] to prepare test instance [com.lxz.orders.Test1@32e7b78d]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.lxz.orders.Test1': Unsatisfied dependency expressed through field 'mqMessageHistoryMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lxz.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -260,7 +260,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xuecheng.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lxz.orders.mapper.MqMessageHistoryMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1717)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1273)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
@@ -366,176 +366,176 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2022-10-02 10:35:00,764 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
 2022-10-02 10:35:03,494 INFO [main][InetUtils.java:170] - Cannot determine local hostname
 2022-10-02 10:35:03,494 INFO [main][InetUtils.java:170] - Cannot determine local hostname
-2022-10-02 10:35:03,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.insert
-2022-10-02 10:35:03,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.insert
-2022-10-02 10:35:03,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.delete
-2022-10-02 10:35:03,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.delete
-2022-10-02 10:35:03,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteByMap
-2022-10-02 10:35:03,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteByMap
-2022-10-02 10:35:03,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteById
-2022-10-02 10:35:03,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteById
-2022-10-02 10:35:03,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteBatchIds
-2022-10-02 10:35:03,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.deleteBatchIds
-2022-10-02 10:35:03,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.update
-2022-10-02 10:35:03,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.update
-2022-10-02 10:35:03,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.updateById
-2022-10-02 10:35:03,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.updateById
-2022-10-02 10:35:03,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectById
-2022-10-02 10:35:03,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectById
-2022-10-02 10:35:03,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectBatchIds
-2022-10-02 10:35:03,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectBatchIds
-2022-10-02 10:35:03,960 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectByMap
-2022-10-02 10:35:03,960 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectByMap
-2022-10-02 10:35:03,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectOne
-2022-10-02 10:35:03,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectOne
-2022-10-02 10:35:03,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectCount
-2022-10-02 10:35:03,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectCount
-2022-10-02 10:35:03,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMaps
-2022-10-02 10:35:03,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMaps
-2022-10-02 10:35:03,972 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMapsPage
-2022-10-02 10:35:03,972 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectMapsPage
-2022-10-02 10:35:03,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectObjs
-2022-10-02 10:35:03,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectObjs
-2022-10-02 10:35:03,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectList
-2022-10-02 10:35:03,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectList
-2022-10-02 10:35:03,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectPage
-2022-10-02 10:35:03,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageHistoryMapper.selectPage
-2022-10-02 10:35:03,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.insert
-2022-10-02 10:35:03,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.insert
-2022-10-02 10:35:03,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.delete
-2022-10-02 10:35:03,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.delete
-2022-10-02 10:35:04,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteByMap
-2022-10-02 10:35:04,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteByMap
-2022-10-02 10:35:04,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteById
-2022-10-02 10:35:04,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteById
-2022-10-02 10:35:04,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteBatchIds
-2022-10-02 10:35:04,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.deleteBatchIds
-2022-10-02 10:35:04,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.update
-2022-10-02 10:35:04,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.update
-2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.updateById
-2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.updateById
-2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectById
-2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectById
-2022-10-02 10:35:04,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectBatchIds
-2022-10-02 10:35:04,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectBatchIds
-2022-10-02 10:35:04,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectByMap
-2022-10-02 10:35:04,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectByMap
-2022-10-02 10:35:04,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectOne
-2022-10-02 10:35:04,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectOne
-2022-10-02 10:35:04,024 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectCount
-2022-10-02 10:35:04,024 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectCount
-2022-10-02 10:35:04,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMaps
-2022-10-02 10:35:04,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMaps
-2022-10-02 10:35:04,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMapsPage
-2022-10-02 10:35:04,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectMapsPage
-2022-10-02 10:35:04,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectObjs
-2022-10-02 10:35:04,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectObjs
-2022-10-02 10:35:04,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectList
-2022-10-02 10:35:04,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectList
-2022-10-02 10:35:04,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectPage
-2022-10-02 10:35:04,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.MqMessageMapper.selectPage
-2022-10-02 10:35:04,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.insert
-2022-10-02 10:35:04,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.insert
-2022-10-02 10:35:04,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.delete
-2022-10-02 10:35:04,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.delete
-2022-10-02 10:35:04,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteByMap
-2022-10-02 10:35:04,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteByMap
-2022-10-02 10:35:04,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteById
-2022-10-02 10:35:04,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteById
-2022-10-02 10:35:04,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
-2022-10-02 10:35:04,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
-2022-10-02 10:35:04,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.update
-2022-10-02 10:35:04,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.update
-2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.updateById
-2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.updateById
-2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectById
-2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectById
-2022-10-02 10:35:04,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
-2022-10-02 10:35:04,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
-2022-10-02 10:35:04,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectByMap
-2022-10-02 10:35:04,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectByMap
-2022-10-02 10:35:04,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectOne
-2022-10-02 10:35:04,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectOne
-2022-10-02 10:35:04,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectCount
-2022-10-02 10:35:04,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectCount
-2022-10-02 10:35:04,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMaps
-2022-10-02 10:35:04,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMaps
-2022-10-02 10:35:04,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
-2022-10-02 10:35:04,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
-2022-10-02 10:35:04,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectObjs
-2022-10-02 10:35:04,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectObjs
-2022-10-02 10:35:04,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectList
-2022-10-02 10:35:04,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectList
-2022-10-02 10:35:04,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectPage
-2022-10-02 10:35:04,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectPage
-2022-10-02 10:35:04,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.insert
-2022-10-02 10:35:04,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.insert
-2022-10-02 10:35:04,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.delete
-2022-10-02 10:35:04,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.delete
-2022-10-02 10:35:04,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteByMap
-2022-10-02 10:35:04,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteByMap
-2022-10-02 10:35:04,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteById
-2022-10-02 10:35:04,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteById
-2022-10-02 10:35:04,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteBatchIds
-2022-10-02 10:35:04,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteBatchIds
-2022-10-02 10:35:04,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.update
-2022-10-02 10:35:04,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.update
-2022-10-02 10:35:04,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.updateById
-2022-10-02 10:35:04,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.updateById
-2022-10-02 10:35:04,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectById
-2022-10-02 10:35:04,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectById
-2022-10-02 10:35:04,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectBatchIds
-2022-10-02 10:35:04,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectBatchIds
-2022-10-02 10:35:04,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectByMap
-2022-10-02 10:35:04,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectByMap
-2022-10-02 10:35:04,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectOne
-2022-10-02 10:35:04,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectOne
-2022-10-02 10:35:04,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectCount
-2022-10-02 10:35:04,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectCount
-2022-10-02 10:35:04,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMaps
-2022-10-02 10:35:04,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMaps
-2022-10-02 10:35:04,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMapsPage
-2022-10-02 10:35:04,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMapsPage
-2022-10-02 10:35:04,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectObjs
-2022-10-02 10:35:04,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectObjs
-2022-10-02 10:35:04,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectList
-2022-10-02 10:35:04,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectList
-2022-10-02 10:35:04,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectPage
-2022-10-02 10:35:04,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectPage
-2022-10-02 10:35:04,170 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.insert
-2022-10-02 10:35:04,170 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.insert
-2022-10-02 10:35:04,173 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.delete
-2022-10-02 10:35:04,173 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.delete
-2022-10-02 10:35:04,177 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteByMap
-2022-10-02 10:35:04,177 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteByMap
-2022-10-02 10:35:04,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteById
-2022-10-02 10:35:04,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteById
-2022-10-02 10:35:04,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteBatchIds
-2022-10-02 10:35:04,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteBatchIds
-2022-10-02 10:35:04,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.update
-2022-10-02 10:35:04,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.update
-2022-10-02 10:35:04,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.updateById
-2022-10-02 10:35:04,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.updateById
-2022-10-02 10:35:04,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectById
-2022-10-02 10:35:04,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectById
-2022-10-02 10:35:04,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectBatchIds
-2022-10-02 10:35:04,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectBatchIds
-2022-10-02 10:35:04,199 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectByMap
-2022-10-02 10:35:04,199 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectByMap
-2022-10-02 10:35:04,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectOne
-2022-10-02 10:35:04,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectOne
-2022-10-02 10:35:04,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectCount
-2022-10-02 10:35:04,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectCount
-2022-10-02 10:35:04,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMaps
-2022-10-02 10:35:04,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMaps
-2022-10-02 10:35:04,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMapsPage
-2022-10-02 10:35:04,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMapsPage
-2022-10-02 10:35:04,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectObjs
-2022-10-02 10:35:04,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectObjs
-2022-10-02 10:35:04,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectList
-2022-10-02 10:35:04,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectList
-2022-10-02 10:35:04,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectPage
-2022-10-02 10:35:04,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectPage
+2022-10-02 10:35:03,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.insert
+2022-10-02 10:35:03,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.insert
+2022-10-02 10:35:03,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.delete
+2022-10-02 10:35:03,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.delete
+2022-10-02 10:35:03,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-02 10:35:03,902 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.deleteByMap
+2022-10-02 10:35:03,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.deleteById
+2022-10-02 10:35:03,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.deleteById
+2022-10-02 10:35:03,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-02 10:35:03,946 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.deleteBatchIds
+2022-10-02 10:35:03,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.update
+2022-10-02 10:35:03,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.update
+2022-10-02 10:35:03,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.updateById
+2022-10-02 10:35:03,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.updateById
+2022-10-02 10:35:03,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectById
+2022-10-02 10:35:03,956 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectById
+2022-10-02 10:35:03,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-02 10:35:03,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectBatchIds
+2022-10-02 10:35:03,960 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-02 10:35:03,960 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectByMap
+2022-10-02 10:35:03,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectOne
+2022-10-02 10:35:03,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectOne
+2022-10-02 10:35:03,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectCount
+2022-10-02 10:35:03,966 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectCount
+2022-10-02 10:35:03,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-02 10:35:03,969 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectMaps
+2022-10-02 10:35:03,972 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-02 10:35:03,972 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectMapsPage
+2022-10-02 10:35:03,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-02 10:35:03,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectObjs
+2022-10-02 10:35:03,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectList
+2022-10-02 10:35:03,979 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectList
+2022-10-02 10:35:03,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectPage
+2022-10-02 10:35:03,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageHistoryMapper.selectPage
+2022-10-02 10:35:03,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.insert
+2022-10-02 10:35:03,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.insert
+2022-10-02 10:35:03,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.delete
+2022-10-02 10:35:03,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.delete
+2022-10-02 10:35:04,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.deleteByMap
+2022-10-02 10:35:04,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.deleteByMap
+2022-10-02 10:35:04,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.deleteById
+2022-10-02 10:35:04,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.deleteById
+2022-10-02 10:35:04,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.deleteBatchIds
+2022-10-02 10:35:04,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.deleteBatchIds
+2022-10-02 10:35:04,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.update
+2022-10-02 10:35:04,011 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.update
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.updateById
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.updateById
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectById
+2022-10-02 10:35:04,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectById
+2022-10-02 10:35:04,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectBatchIds
+2022-10-02 10:35:04,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectBatchIds
+2022-10-02 10:35:04,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectByMap
+2022-10-02 10:35:04,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectByMap
+2022-10-02 10:35:04,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectOne
+2022-10-02 10:35:04,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectOne
+2022-10-02 10:35:04,024 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectCount
+2022-10-02 10:35:04,024 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectCount
+2022-10-02 10:35:04,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectMaps
+2022-10-02 10:35:04,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectMaps
+2022-10-02 10:35:04,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectMapsPage
+2022-10-02 10:35:04,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectMapsPage
+2022-10-02 10:35:04,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectObjs
+2022-10-02 10:35:04,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectObjs
+2022-10-02 10:35:04,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectList
+2022-10-02 10:35:04,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectList
+2022-10-02 10:35:04,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectPage
+2022-10-02 10:35:04,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.MqMessageMapper.selectPage
+2022-10-02 10:35:04,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.insert
+2022-10-02 10:35:04,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.insert
+2022-10-02 10:35:04,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.delete
+2022-10-02 10:35:04,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.delete
+2022-10-02 10:35:04,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.deleteByMap
+2022-10-02 10:35:04,056 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.deleteByMap
+2022-10-02 10:35:04,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.deleteById
+2022-10-02 10:35:04,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.deleteById
+2022-10-02 10:35:04,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
+2022-10-02 10:35:04,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
+2022-10-02 10:35:04,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.update
+2022-10-02 10:35:04,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.update
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.updateById
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.updateById
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectById
+2022-10-02 10:35:04,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectById
+2022-10-02 10:35:04,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
+2022-10-02 10:35:04,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
+2022-10-02 10:35:04,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectByMap
+2022-10-02 10:35:04,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectByMap
+2022-10-02 10:35:04,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectOne
+2022-10-02 10:35:04,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectOne
+2022-10-02 10:35:04,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectCount
+2022-10-02 10:35:04,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectCount
+2022-10-02 10:35:04,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectMaps
+2022-10-02 10:35:04,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectMaps
+2022-10-02 10:35:04,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
+2022-10-02 10:35:04,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
+2022-10-02 10:35:04,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectObjs
+2022-10-02 10:35:04,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectObjs
+2022-10-02 10:35:04,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectList
+2022-10-02 10:35:04,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectList
+2022-10-02 10:35:04,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectPage
+2022-10-02 10:35:04,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersGoodsMapper.selectPage
+2022-10-02 10:35:04,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.insert
+2022-10-02 10:35:04,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.insert
+2022-10-02 10:35:04,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.delete
+2022-10-02 10:35:04,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.delete
+2022-10-02 10:35:04,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.deleteByMap
+2022-10-02 10:35:04,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.deleteByMap
+2022-10-02 10:35:04,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.deleteById
+2022-10-02 10:35:04,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.deleteById
+2022-10-02 10:35:04,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,112 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.update
+2022-10-02 10:35:04,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.update
+2022-10-02 10:35:04,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.updateById
+2022-10-02 10:35:04,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.updateById
+2022-10-02 10:35:04,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectById
+2022-10-02 10:35:04,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectById
+2022-10-02 10:35:04,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectByMap
+2022-10-02 10:35:04,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectByMap
+2022-10-02 10:35:04,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectOne
+2022-10-02 10:35:04,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectOne
+2022-10-02 10:35:04,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectCount
+2022-10-02 10:35:04,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectCount
+2022-10-02 10:35:04,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectMaps
+2022-10-02 10:35:04,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectMaps
+2022-10-02 10:35:04,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectObjs
+2022-10-02 10:35:04,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectObjs
+2022-10-02 10:35:04,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectList
+2022-10-02 10:35:04,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectList
+2022-10-02 10:35:04,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectPage
+2022-10-02 10:35:04,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcOrdersMapper.selectPage
+2022-10-02 10:35:04,170 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.insert
+2022-10-02 10:35:04,170 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.insert
+2022-10-02 10:35:04,173 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.delete
+2022-10-02 10:35:04,173 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.delete
+2022-10-02 10:35:04,177 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.deleteByMap
+2022-10-02 10:35:04,177 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.deleteByMap
+2022-10-02 10:35:04,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.deleteById
+2022-10-02 10:35:04,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.deleteById
+2022-10-02 10:35:04,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.deleteBatchIds
+2022-10-02 10:35:04,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.update
+2022-10-02 10:35:04,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.update
+2022-10-02 10:35:04,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.updateById
+2022-10-02 10:35:04,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.updateById
+2022-10-02 10:35:04,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectById
+2022-10-02 10:35:04,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectById
+2022-10-02 10:35:04,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,196 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectBatchIds
+2022-10-02 10:35:04,199 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectByMap
+2022-10-02 10:35:04,199 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectByMap
+2022-10-02 10:35:04,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectOne
+2022-10-02 10:35:04,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectOne
+2022-10-02 10:35:04,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectCount
+2022-10-02 10:35:04,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectCount
+2022-10-02 10:35:04,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectMaps
+2022-10-02 10:35:04,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectMaps
+2022-10-02 10:35:04,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectMapsPage
+2022-10-02 10:35:04,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectObjs
+2022-10-02 10:35:04,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectObjs
+2022-10-02 10:35:04,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectList
+2022-10-02 10:35:04,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectList
+2022-10-02 10:35:04,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectPage
+2022-10-02 10:35:04,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.lxz.orders.mapper.XcPayOrdersMapper.selectPage
 2022-10-02 10:35:04,259 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
 2022-10-02 10:35:04,259 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
 2022-10-02 10:35:04,260 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null

@@ -546,7 +546,7 @@
             <div class="title">Java编程思想 <span class="close-popup-course-box">×</span></div>
             <div class="content">
                 <p>欢迎学习本课程，本课程免费您可以立即学习，也可加入我的课程表享受更优质的服务。</p>
-                <p><a href="#" @click.prevent="addCourseTable()">加入我的课程表</a>  <a href="#" @click.prevent="startLearngin()">立即学习</a></p>
+                <p><a href="#" @click.prevent="addCourseTable()">加入我的课程表</a>  <a href="#" @click.prevent="startLearning()">立即学习</a></p>
             </div>
         </div>
     </div>
@@ -566,7 +566,7 @@
             </div>
             <div class="fact-pic">
                 实际支付: <span>￥99</span></div>
-            <div class="go-pay"><a href="#" @click.prevent="wxPay()">微信支付</a><a href="#" @click.prevent="aliPay()">支付宝支付</a><a href="#" @click.prevent="startLearngin()">试学</a></div>
+            <div class="go-pay"><a href="#" @click.prevent="wxPay()">微信支付</a><a href="#" @click.prevent="aliPay()">支付宝支付</a><a href="#" @click.prevent="startLearning()">试学</a></div>
         </div>
         <!--支付弹窗- end -->
         <div class="popup-comment-box">

@@ -10686,8 +10686,8 @@ ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([1
 2024-08-16 11:10:43,947 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'teachplanMapper'.
 2024-08-16 11:10:43,947 DEBUG [main][Logger.java:49] - Creating MapperFactoryBean with name 'teachplanMediaMapper' and 'com.lxz.content.mapper.TeachplanMediaMapper' mapperInterface
 2024-08-16 11:10:43,947 DEBUG [main][Logger.java:49] - Enabling autowire by type for MapperFactoryBean with name 'teachplanMediaMapper'.
-2024-08-16 11:10:43,948 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.messagesdk.mapper]' package. Please check your configuration.
-2024-08-16 11:10:43,948 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.messagesdk.mapper]' package. Please check your configuration.
+2024-08-16 11:10:43,948 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.lxz.messagesdk.mapper]' package. Please check your configuration.
+2024-08-16 11:10:43,948 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.lxz.messagesdk.mapper]' package. Please check your configuration.
 2024-08-16 11:10:43,949 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\01CodeFiles\Java\JavaCodes\xuecheng-plus-project\xuecheng-plus-message-sdk\target\classes\com\lxz\messagesdk\mapper\MqMessageHistoryMapper.class]
 2024-08-16 11:10:43,949 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\01CodeFiles\Java\JavaCodes\xuecheng-plus-project\xuecheng-plus-message-sdk\target\classes\com\lxz\messagesdk\mapper\MqMessageHistoryMapper.class]
 2024-08-16 11:10:43,949 DEBUG [main][ClassPathScanningCandidateComponentProvider.java:435] - Identified candidate component class: file [E:\01CodeFiles\Java\JavaCodes\xuecheng-plus-project\xuecheng-plus-message-sdk\target\classes\com\lxz\messagesdk\mapper\MqMessageMapper.class]

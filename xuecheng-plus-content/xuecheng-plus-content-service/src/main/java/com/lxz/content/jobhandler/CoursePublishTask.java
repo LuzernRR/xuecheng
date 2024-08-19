@@ -7,7 +7,9 @@ package com.lxz.content.jobhandler;
  */
 
 import com.lxz.base.exception.XueChengPlusException;
+import com.lxz.content.feignclient.SearchServiceClient;
 import com.lxz.content.mapper.CoursePublishMapper;
+import com.lxz.content.model.dto.CourseIndex;
 import com.lxz.content.model.po.CoursePublish;
 import com.lxz.content.service.CoursePublishService;
 import com.lxz.messagesdk.model.po.MqMessage;
@@ -32,6 +34,8 @@ public class CoursePublishTask extends MessageProcessAbstract {
     CoursePublishService coursePublishService;
     @Autowired
     private CoursePublishMapper coursePublishMapper;
+    @Autowired
+    SearchServiceClient searchServiceClient;
 
     // 任务调度入口
     @XxlJob("CoursePublishJobHandler")
@@ -40,7 +44,7 @@ public class CoursePublishTask extends MessageProcessAbstract {
         int shardIndex = XxlJobHelper.getShardIndex();  // 执行器的序号，从0开始
         int shardTotal = XxlJobHelper.getShardTotal();  // 执行器总数
         // 调用process方法执行任务
-        process(shardIndex, shardTotal, "course_publish", 30, 60);
+        process(shardIndex, shardTotal, "course-publish", 30, 60);
     }
 
     @Override
@@ -50,7 +54,7 @@ public class CoursePublishTask extends MessageProcessAbstract {
         // =================课程静态化上传到minio（stage1）======================
         generateCourseHtml(mqMessage, courseId);
         // ==========向elasticsearch中保存课程信息（stage2）===============
-        saveCOurseIndex(mqMessage, courseId);
+        saveCourseIndex(mqMessage, courseId);
         // ==============向redis写缓存（stage3）=========================
 
         return true;  // 任务完成
@@ -79,7 +83,7 @@ public class CoursePublishTask extends MessageProcessAbstract {
         messageService.completedStageOne(taskId);
     }
     // 向elasticsearch中保存课程信息
-    private void saveCOurseIndex(MqMessage mqMessage, Long courseId) {
+    private void saveCourseIndex(MqMessage mqMessage, Long courseId) {
         // 任务幂等性处理
         Long taskId = mqMessage.getId();
         MqMessageService messageService = this.getMqMessageService();
@@ -90,17 +94,25 @@ public class CoursePublishTask extends MessageProcessAbstract {
             log.debug("课程索引任务已经执行");
             return;
         }
-        // 查询课程信息，调用搜索服务保存课程信息(未实现)
-//        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
-//        CourseIndex courseIndex = new CourseIndex();
-//        BeanUtils.copyProperties(coursePublish, courseIndex);
-//        // 远程调用
-//        Boolean add = searchServiceClient.add(courseIndex)
-//        if (add == null) {
-//            XueChengPlusException.cast("保存课程信息到elasticsearch失败");
-//        }
+        Boolean result = saveCourseIndex(courseId);
+        if(result) {
+            // 任务处理完成后，更新任务状态
+            messageService.completedStageTwo(taskId);
+        }
+    }
 
-        // 任务处理完成后，更新任务状态
-        messageService.completedStageTwo(taskId);
+    private Boolean saveCourseIndex(Long courseId) {
+        //取出课程发布信息
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        //拷贝至课程索引对象
+        CourseIndex courseIndex = new CourseIndex();
+        BeanUtils.copyProperties(coursePublish,courseIndex);
+        //远程调用搜索服务api添加课程信息到索引
+        Boolean add = searchServiceClient.add(courseIndex);
+        if(!add){
+            XueChengPlusException.cast("添加索引失败");
+        }
+        return add;
+
     }
 }

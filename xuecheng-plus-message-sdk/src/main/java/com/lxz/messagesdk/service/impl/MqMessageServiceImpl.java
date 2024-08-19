@@ -37,7 +37,7 @@ public class MqMessageServiceImpl extends ServiceImpl<MqMessageMapper, MqMessage
 
     @Override
     public List<MqMessage> getMessageList(int shardIndex, int shardTotal, String messageType,int count) {
-        return mqMessageMapper.selectListByShardIndex(shardTotal,shardIndex,messageType,count);
+        return mqMessageMapper.selectListByShardIndex(shardIndex,shardTotal,messageType,count);
     }
 
     @Override
@@ -53,7 +53,6 @@ public class MqMessageServiceImpl extends ServiceImpl<MqMessageMapper, MqMessage
         }else{
             return null;
         }
-
     }
 
     @Transactional

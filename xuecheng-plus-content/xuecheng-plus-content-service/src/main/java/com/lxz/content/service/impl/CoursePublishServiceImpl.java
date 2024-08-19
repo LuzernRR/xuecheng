@@ -165,7 +165,6 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         // =============向消息表写入数据===============
         saveCoursePublishMessage(courseId);
 
-
         // =========将课程预发布表的数据删除==============
         coursePublishPreMapper.deleteById(courseId);
     }
@@ -213,9 +212,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
     public void uploadHtmlToMinio(Long courseId, File htmlFile) {
         try {
             // 将file类型转为MultipartFile类型
-            File file = new File("D:\\Minio\\LocalData\\HTML\\1.html");
+//            File file = new File("D:\\Minio\\LocalData\\HTML\\1.html");
             // 调用方法将file转为MultipartFile
-            MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
+            MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(htmlFile);
             String upload = mediaServiceClient.upload(multipartFile, "course/" + courseId + ".html");
             if (upload == null) {
                 log.debug("远程调用走降级的逻辑，得到上传的结果为null，课程id:{}", courseId);
@@ -228,7 +227,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
     }
 
     private void saveCoursePublishMessage(Long courseId) {
-        MqMessage mqMessage = mqMessageService.addMessage("course_publish", courseId.toString(), null, null);
+        MqMessage mqMessage = mqMessageService.addMessage("course-publish", courseId.toString(), null, null);
         if (mqMessage == null) {
             XueChengPlusException.cast("向消息表写入数据失败");
         }

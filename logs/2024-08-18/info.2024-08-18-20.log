@@ -1,0 +1,20 @@
+2024-08-18 21:00:00,907 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-08-18 21:00:00,907 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for checkcode obtained from Discovery client: [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for checkcode obtained from Discovery client: [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for checkcode obtained from Discovery client: [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for checkcode obtained from Discovery client: [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [checkcode]: clearing server list (SET op)
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [checkcode]:  addServer [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [checkcode]: clearing server list (SET op)
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [checkcode]:  addServer [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.128.1:63075]}
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.128.1:63075]}
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [checkcode_unknown]: clearing server list (SET op)
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [checkcode_unknown]: clearing server list (SET op)
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [checkcode_unknown]:  addServer [192.168.128.1:63075]
+2024-08-18 21:00:00,926 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [checkcode_unknown]:  addServer [192.168.128.1:63075]
+2024-08-18 21:00:00,971 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2024-08-18 21:00:00,971 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2024-08-18 21:00:02,092 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.128.1:8848]
+2024-08-18 21:00:02,092 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.128.1:8848]
