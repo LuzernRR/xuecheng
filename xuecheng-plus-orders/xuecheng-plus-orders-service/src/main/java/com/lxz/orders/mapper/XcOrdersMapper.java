@@ -2,6 +2,7 @@ package com.lxz.orders.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.lxz.orders.model.po.XcOrders;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -10,6 +11,7 @@ import com.lxz.orders.model.po.XcOrders;
  *
  * @author itcast
  */
+
 public interface XcOrdersMapper extends BaseMapper<XcOrders> {
 
 }

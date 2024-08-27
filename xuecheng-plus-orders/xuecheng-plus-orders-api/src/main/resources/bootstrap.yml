@@ -4,12 +4,12 @@ spring:
     name: orders-api
   cloud:
     nacos:
-      server-addr: 192.168.101.65:8848
+      server-addr: 192.168.128.1:8848
       discovery:
-        namespace: dev166
+        namespace: 54a51513-52f2-4d52-b774-caba911f8f39
         group: xuecheng-plus-project
       config:
-        namespace: dev166
+        namespace: 54a51513-52f2-4d52-b774-caba911f8f39
         group: xuecheng-plus-project
         file-extension: yaml
         refresh-enabled: true
@@ -22,6 +22,9 @@ spring:
             group: xuecheng-plus-common
             refresh: true
           - data-id: logging-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+          - data-id: rabbitmq-${spring.profiles.active}.yaml
             group: xuecheng-plus-common
             refresh: true
 
